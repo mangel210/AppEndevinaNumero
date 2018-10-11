@@ -7,4 +7,9 @@
         android:layout_height="match_parent"
         tools:context=".FameActivity" android:orientation="vertical">
 
+    <TextView
+            android:text="RANKING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:textStyle="bold"
+            android:textSize="24sp" app:fontFamily="sans-serif"/>
 </LinearLayout>

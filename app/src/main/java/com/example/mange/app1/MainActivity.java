@@ -57,8 +57,10 @@ public class MainActivity extends AppCompatActivity {
                     String message = "";
                     if (finalValue < numero) {
                         message += "Incorrecte. És més gran";
+                        etNumero.setText("");
                     } else {
                         message += "Incorrecte. És més petit";
+                        etNumero.setText("");
                     }
                     Toast toastFalse = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG);
                     toastFalse.show();

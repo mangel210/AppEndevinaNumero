@@ -71,7 +71,9 @@ public class MainActivity extends AppCompatActivity {
         final Button buttonRanking = findViewById(R.id.button2);
         buttonRanking.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                i.addFlags(cont);
+                Intent intent = new Intent (v.getContext(), FameActivity.class);
+                startActivityForResult(intent, 0);
+                intent.addFlags(cont);
             }
         });
     }

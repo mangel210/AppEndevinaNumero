@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textNombre"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textintentos"
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
+                android:text="Intentos"
+                android:textSize="24sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Records"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
